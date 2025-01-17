@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.main-content {
+    padding: 20px;
+    margin-left: 250px; /* Adjust for the sidebar width */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h4 {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h4 {
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    color: #f97316;
+    padding: 0px 20px; 
+}
+
+
+.saleschart {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+}
+/* Improved Table Styles */
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    caption-side: bottom;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+
+.table td {
+    background-color: #ffffff;
+    color: #333;
+}
+
+
+.table tr:hover td {
+    background-color: #eaeaea; /* Light hover effect */
+}
+
+/* Table Footer and Row Styling */
+.table tfoot {
+    background-color: #f97316;
+    font-weight: bold;
+}
+
+.table td, .table th {
+    transition: background-color 0.3s ease;
+}
+
+/* Adding focus styles for accessibility */
+.table td:focus,
+.table th:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.6);
+}
+
+
+
+.table-section {
+    padding: 20px 0px;
+    background-color: #ffffff;
+    border: 1px solid #ededed;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: #ededed 0px 0px 2px;
+}
+
+.table .heading {
+    color: #222222;
+    font-weight: bold;
+    background-color: #eaeaea;
+    border-radius: 15px;
+}
